@@ -9,6 +9,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -22,7 +23,22 @@ h5,
 h6 {
   color: #1e1e1e;
 }
-
+*{
+  font-family: 小塚ゴシック;
+}
+@font-face {
+  font-family: "yugo";
+  src: url(../font/Morrison/Morrison-Light.ttf);
+  
+}
+@font-face {
+  font-family: "小塚ゴシック";
+  src: url(../font/小塚ゴシック\ Pr6N\ R.otf);
+}
+@font-face {
+  font-family: "helvetica";
+  src: url(../font/helvetica-neue-5/HelveticaNeueRoman.otf);
+}
 a {
   color: #1e1e1e;
   text-decoration: none;
@@ -835,7 +851,7 @@ a:hover {
 
 .about-mf .about-img img {
   margin-left: 10px;
-  width: 150px;
+  width: 190px;
 }
 
 @media (min-width: 767px) {
@@ -1463,8 +1479,9 @@ footer .credits a {
   color: #fff;
 }
 .lead{
-  font-family: "Kiwi Maru", serif;
+  /* font-family: "Kiwi Maru", serif; */
   font-weight: 500;
+  font-size: 1rem;
 }
 @media screen and (min-width:1440px) {
   .work-img img{
